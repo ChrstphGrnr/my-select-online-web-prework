@@ -4,7 +4,6 @@ def my_select(collection)
  while i < collection.length 
   if yield collection[i] == true
     selectors.push(collection[i])
-  else 
   end
  i += 1 
 end 
